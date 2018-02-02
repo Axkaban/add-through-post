@@ -1,0 +1,47 @@
+/* Global styles */
+body.container {
+    width: 100vw;
+    height: 100vh;
+    display:flex;
+    display: -webkit-flex;
+    justify-content: center;
+    flex-direction: column;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+    background: -moz-linear-gradient(to bottom right, hsl(196, 80%, 56%), hsl(185, 69%, 50%));
+    background: -o-linear-gradient(to bottom right, hsl(196, 80%, 56%), hsl(185, 69%, 50%));
+    background: -webkit-linear-gradient(to bottom right, hsl(196, 80%, 56%), hsl(185, 69%, 50%));
+    background: linear-gradient(to bottom right, hsl(196, 80%, 56%), hsl(185, 69%, 50%));
+    background-repeat: no-repeat;
+    background-size: 100vmax;
+    color: rgb(240, 240, 240);
+}
+/* Text box with instructions */
+
+div.intro-box {
+    text-align: justify;
+    align-self: center;
+}
+
+/* Form styles */
+label {
+    font-size: 3em;
+}
+
+input {
+    height: 3em;
+    background-color: rgba(240, 23, 88, 0.3);
+    border-radius: .5em;
+    margin:1em;
+    color: aliceblue;
+    font-size: .8em;
+}
+
+input#submit {
+    background-color: rgb(243, 91, 172);
+    border-radius: 3em;
+    font-size: 1.5em;
+    padding: 0;
+    margin: 0 auto;
+    width: 12vw;
+}

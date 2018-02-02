@@ -1,0 +1,17 @@
+{
+  "name": "expressltest",
+  "version": "1.0.0",
+  "description": "test app exercise. pass two values through the route and it adds them.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js"
+  },
+  "author": "Axel kaban",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.18.2",
+    "express": "^4.16.2",
+    "mustache-express": "^1.2.5"
+  }
+}
